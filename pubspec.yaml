@@ -52,10 +52,10 @@ dev_dependencies:
   #higher or specified
   flutter_launcher_icons: ^0.13.1
 
-fluttter_launcher_icons:
+flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assest/photo.jpg"
+  image_path: "assets/photo.jpg"
 
 # The following section is specific to Flutter packages.
 flutter:
