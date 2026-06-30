@@ -50,35 +50,28 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
   flutter_flavorizr: ^2.2.1
+  flutter_launcher_icons: ^0.13.1
 
 flavorizr:
-  app:
-    android
-
   flavors:
     dev:
       app:
         name: "MyApp Dev"
-
       android:
         applicationId: "com.example.myprofile.dev"
 
-      staging:
-        app:
-          name: "MyApp Staging"
+    staging:
+      app:
+        name: "MyApp Staging"
+      android:
+        applicationId: "com.example.myprofile.staging"
 
-        android:
-          applicationId: "com.example.myprofile.staging"
-
-        prod:
-          app:
-            name: "MyApp Prod"
-
-          android:
-            applicationId: "com.example.myprofile"
-
+    prod:
+      app:
+        name: "MyApp Prod"
+      android:
+        applicationId: "com.example.myprofile"
   #higher or specified
-  flutter_launcher_icons: ^0.13.1
 
 flutter_launcher_icons:
   android: true
